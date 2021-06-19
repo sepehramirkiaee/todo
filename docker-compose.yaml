@@ -35,7 +35,7 @@ services:
     image: "node:16-alpine"
     working_dir: /app
     volumes:
-      - ./:/app
+      - ./backend:/app
     entrypoint: "npm"
   composer:
     image: "composer"
